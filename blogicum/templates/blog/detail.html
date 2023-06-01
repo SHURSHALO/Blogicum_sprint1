@@ -1,0 +1,24 @@
+{% extends "base.html" %}
+{% block title %}
+  Лента записей
+{% endblock %}
+{% block content %}
+  <div class="container py-5">
+    <article>
+      <ul>
+        <li>
+          {{ post.location }}            
+        </li>
+        <li>
+          {{ post.date }}
+        </li>
+        <li>
+          Категория: <a href="{% url 'blog:category_posts' category_slug='personal' %}">not-my-day</a>
+        </li>
+      </ul>         
+      <p>
+        {{ post.text|linebreaksbr }}
+      </p>          
+    </article>                
+  </div>
+{% endblock %}
