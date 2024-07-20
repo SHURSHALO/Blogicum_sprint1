@@ -28,8 +28,6 @@ Blogicum - это блоговая платформа на базе Django,
    
    python manage.py migrate
 
-# Запуск
-
-python manage.py runserver
+6. Запуск python manage.py runserver
 
 Откройте веб-браузер и перейдите по адресу http://localhost:8000/, чтобы получить доступ к приложению Blogicum.
