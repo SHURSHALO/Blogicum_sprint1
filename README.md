@@ -8,26 +8,35 @@
 # Установка
 
 1. Клонируйте репозиторий на свою локальную машину:
-
-   git clone git@github.com:SHURSHALO/django_sprint1.git
-
+```
+git clone git@github.com:SHURSHALO/django_sprint1.git
+```
 2. Перейдите в директорию проекта:
-
-   cd django_sprint1
-
+```
+cd Blogicum_sprint1
+```
 3. Создайте и активируйте виртуальное окружение (опционально):
-
-   py -3.9 -m venv venv
-   source venv/Scripts/activate
-
+```
+py -3.9 -m venv venv
+```
+```
+source venv/Scripts/activate
+```
 4. Установите необходимые зависимости:
-
-   pip install -r requirements.txt
-
+```
+pip install -r requirements.txt
+```
 5. Примените миграции базы данных:
-   
-   python manage.py migrate
+```
+cd blogicum
+```
+```
+python manage.py migrate
+```
 
-6. Запуск python manage.py runserver
+7. Запуск
+```
+python manage.py runserver
+```
 
 Откройте веб-браузер и перейдите по адресу http://localhost:8000/, чтобы получить доступ к приложению Blogicum.
