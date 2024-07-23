@@ -9,7 +9,7 @@
 
 1. Клонируйте репозиторий на свою локальную машину:
 ```
-git clone git@github.com:SHURSHALO/django_sprint1.git
+git clone git@github.com:SHURSHALO/Blogicum_sprint1.git
 ```
 2. Перейдите в директорию проекта:
 ```
