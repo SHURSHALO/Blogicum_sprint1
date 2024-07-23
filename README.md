@@ -17,7 +17,7 @@
 
 3. Создайте и активируйте виртуальное окружение (опционально):
 
-   python3 -m venv venv
+   py -3.9 -m venv venv
    source venv/Scripts/activate
 
 4. Установите необходимые зависимости:
